@@ -95,9 +95,7 @@ function checarHorizontal (index) {
     horizontalPos = index
   }
 
-  console.log('Horizontal: ', horizontalPos)
   for (let x = horizontalPos; x < horizontalPos + 3; x++) {
-    console.log('Checking ', x)
     if (tabuleiro[x] !== marcacao) return false
   }
 
